@@ -36,11 +36,10 @@ Surface plane (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.nike.com/nl//omschrijving van je eigen ontwerp
-
+https://www.nike.com/nl
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/pagina1.jpg" width="375px" alt="Nike site, Verschillende opties beschikbaar en het tonen van een paar schoenen">
+<img src="images/Pagina1.jpg" width="375px" alt="Nike site, Verschillende opties beschikbaar en het tonen van een paar schoenen">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
