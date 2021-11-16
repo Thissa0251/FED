@@ -39,11 +39,11 @@ Surface plane (kies uit responsive óf surface plane)
 https://www.nike.com/nl
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/Pagina1.jpg" width="375px" alt="Nike site, Verschillende opties beschikbaar en het tonen van een paar schoenen">
+<img src="images/Pagina1.JPG" width="375px" alt="Nike site, Verschillende opties beschikbaar en het tonen van een paar schoenen">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/pagina2.jpg" width="375px" alt="Detailpagina voor het kopen van een paar schoenen">
+<img src="images/pagina2.JPG" width="375px" alt="Detailpagina voor het kopen van een paar schoenen">
  
 </details>
 
