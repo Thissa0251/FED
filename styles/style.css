@@ -3,3 +3,98 @@
   box-sizing:border-box;  
 }
 
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color:white;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  width:90%;
+  margin:auto;
+  overflow: hidden;
+}
+
+/* HEADER ****************************************************************/
+header{
+  background:#f4f4f4;
+  padding: 0px;
+  margin: -3em 0 0 0;
+}
+/*
+header ul{
+color: ;
+}*/
+
+header li{
+  float: left;
+  justify-content: center;
+  list-style: none;
+  margin: 0 0 1em 5.5em;
+
+  padding: none
+  ;
+}
+
+header a{
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0 0 1em 0;
+}
+
+/* SHOWCASE ***************************************************************/
+
+#showcase{
+  padding: 0 0 1em 0;
+}
+
+/* SECTION ***************************************************************/
+
+section h2{
+  text-align: center;
+  font-size: 45px;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+}
+
+section p{
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*section button{
+  margin-left: 300px;
+  text-align: center;
+  font-size: 16px;
+  padding: 8px 28px;
+  color: white;
+  background: black;
+  border-radius: 20px;
+}*/
+
+#shop{
+  margin-left: 42%;
+  text-align: center;
+  font-size: 16px;
+  padding: 8px 28px;
+  color: white;
+  background: black;
+  border-radius: 20px;
+}
+
+#shop_kids{
+
+  text-align: center;
+  font-size: 16px;
+  padding: 8px 28px;
+  color: white;
+  background: black;
+  border-radius: 20px;
+}
+
+
