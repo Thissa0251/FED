@@ -55,7 +55,7 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdownschets2.JPG" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets1.JPG" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/breakdownschets2.JPG" width="375px" alt="breakdown van een dynamisch deel">
