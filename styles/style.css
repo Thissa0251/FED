@@ -5,9 +5,7 @@
 
 
 body{
-
-/*width: 100%;*/
-
+width: 90%;
 margin: none;
 padding: none;
 
@@ -16,17 +14,16 @@ font-size: 16px;
 font-weight: normal;
 }
 
-
 /*HEADER******************************************/
-
 header{
   padding: none;
   margin: none;
+  margin-right: 2%;
   background-color: #f4f4f4;
 }
 
 header section:first-of-type{
-  padding: 8px;
+  padding: 10px;
   margin: none;
   
   background: white;
@@ -40,9 +37,65 @@ height: 28px;
 width: 64px;
 }
 
+header section:first-of-type nav{
+  grid-column-start:1;
+  grid-row-start:1;
+}
+
+header section:first-of-type button{
+  display: block;
+  padding: 1em;
+  margin-top: -12%;
+  margin-left: 85%;
+  width:3.5em;
+  height:2.5em;
+  appearance:none;
+  background-color: white;
+  border:none;
+  border-radius:.25em;
+  
+  position:relative;
+  z-index:100;
+}
+
+
+header section:first-of-type ul{
+  margin:0; 
+  padding:4em 0 0;
+  background-color: white;
+  list-style:none;
+  
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  transform:translatex(100%); 
+  
+  transition:.3s;
+}
+
+header section:first-of-type nav.toonMenu ul{
+  transform:translatex(15%);
+}
+
+header section:first-of-type li{
+  margin:0;
+  margin-left: 5%; 
+  padding:1em;
+
+}
+
+header section:first-of-type nav a{
+  text-decoration: none;
+  color: black;
+  display:flex;
+  align-items:center;
+
+}
 
 header section:last-of-type h2{
-margin-top: 0px;
+margin-top: 10px;
 margin-left: 20px;
 margin-right: 20px;
 padding-top: 20px;
@@ -65,12 +118,11 @@ main{
 }
 
 main img{
-  display: block;
+  /*display: block;*/
   margin-top: -10px;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
-  
+  width: 98%;
 }
 
 main section:first-of-type h2{
@@ -113,6 +165,12 @@ main section:first-of-type button{
   color: #fff;
   cursor: pointer;
 }
+
+main section button:hover{
+background-color: red;
+}
+
+
 /*MAIN 2 of type ************************************/
 main section:nth-of-type(2){
   padding: none;
@@ -131,6 +189,7 @@ main section:nth-of-type(2) h2{
 
 main section:nth-of-type(2) img{
   padding: none;
+  margin-left: 5%;
   margin: none;
   margin-right: 4em;
 
@@ -156,7 +215,10 @@ padding: none;
 margin: none;
 margin-right: 10%;
 margin-left: 5%;
+color: darkgray;
 }
+
+/*MAIN section 3******************************************/
 
 main section:nth-of-type(3) h2{
   padding: none;
@@ -181,7 +243,7 @@ main section:nth-of-type(3) p{
   padding: none;
   margin: none;
   margin-left: 10%;
-  margin-top: -6em;
+  margin-top: -8em;
 
   font-size: 14px;
   color: white;
@@ -192,6 +254,51 @@ main section:nth-of-type(3) button{
   padding-bottom: 8px;
   padding-left: 24px;
   padding-right: 24px;
+  margin-bottom: 2em;
+  margin-left: 10%;
+
+  border-radius: 20px;
+  border-color: white;
+
+  text-align: center;
+
+  background:white;
+  color:black;
+  cursor: pointer;
+}
+
+/*MAIN section 4*********************************/
+main section:nth-of-type(4){
+  padding: none;
+  margin: none;
+}
+
+main section:nth-of-type(4) img{
+  display: block;
+  padding: none;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  
+  width: 95%;
+  height: 300px;
+}
+
+main section:nth-of-type(4) p{
+  padding: none;
+  margin: none;
+  margin-left: 10%;
+  margin-top: -8em;
+
+  font-size: 14px;
+  color: white;
+}
+
+main section:nth-of-type(4) button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 2em;
   margin-left: 10%;
 
   border-radius: 20px;
@@ -205,6 +312,21 @@ main section:nth-of-type(3) button{
 }
 
 
+footer{
+  padding: 0 0 10em 0;
+  margin: none;
+  width: 98%; 
+  color: white;
+  background-color: black ;
+}
+
+footer h2{
+  padding:none;
+  margin:none;
+  text-align: center;
+  
+}
 
 
-
+/* Hoe zorgt ik voor 1 universele width binnen mijn site. 
+bvb 90%? moet ik dan een container class aanmaken waar alles in gaat?*/
