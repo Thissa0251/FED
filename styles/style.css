@@ -1,32 +1,43 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box; 
+  margin: none;
+  padding: none; 
 }
 
+:root{
+  --header-background:#f4f4f4;
+  --header-background2:white;
+  --color-black:black;
+  }
 
 body{
-width: 90%;
+width: 100%;
 margin: none;
 padding: none;
 
+/*ont-family: 'Expletus Sans', cursive;*/
 font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
 font-weight: normal;
 }
 
 /*HEADER******************************************/
+
 header{
   padding: none;
   margin: none;
-  margin-right: 2%;
-  background-color: #f4f4f4;
+  background-color:var(--header-background);
 }
 
 header section:first-of-type{
+  width: 100%;
+  height: 3em;
+  display: flex;
+  justify-content: space-between;
   padding: 10px;
-  margin: none;
   
-  background: white;
+  background:var(--header-background2);
 }
 
 header section:first-of-type img{
@@ -34,23 +45,23 @@ padding: none;
 margin: none;
 
 height: 28px;
-width: 64px;
+width: 100%;
 }
 
 header section:first-of-type nav{
   grid-column-start:1;
   grid-row-start:1;
+  margin-right: 1.5em;
 }
 
 header section:first-of-type button{
   display: block;
-  padding: 1em;
-  margin-top: -12%;
-  margin-left: 85%;
-  width:3.5em;
+  padding: 0 ;
+  margin:  0;
+  width:2em;
   height:2.5em;
   appearance:none;
-  background-color: white;
+  background-color:var(--header-background2);
   border:none;
   border-radius:.25em;
   
@@ -58,11 +69,49 @@ header section:first-of-type button{
   z-index:100;
 }
 
+header section:first-of-type button:hover{
+  background-color: var(--header-background);
+  border-radius: 1em;
+}
+
+header section:first-of-type nav button span{
+  display: block;
+  position: absolute;
+  margin-left: 3.5px;
+  
+  border-radius: 5px;
+  width:75%;
+  height: 1.5px;
+  background-color:var(--color-black);
+  transition: .3s;
+
+}
+
+header section:first-of-type nav button span:nth-of-type(1){
+  transform: translateY(-8px);
+  
+}
+
+header section:first-of-type nav button span:nth-of-type(3){
+  transform: translateY(8px);
+}
+
+header section:first-of-type nav.toonMenu button span:nth-of-type(1){
+  transform: rotate(45deg);
+}
+
+header section:first-of-type nav.toonMenu button span:nth-of-type(2){
+  opacity: 0;
+}
+
+header section:first-of-type nav.toonMenu button span:nth-of-type(3){
+  transform: rotate(-45deg);
+}
 
 header section:first-of-type ul{
   margin:0; 
   padding:4em 0 0;
-  background-color: white;
+  background-color: var(--header-background2);
   list-style:none;
   
   position:fixed;
@@ -82,54 +131,53 @@ header section:first-of-type nav.toonMenu ul{
 header section:first-of-type li{
   margin:0;
   margin-left: 5%; 
-  padding:1em;
-
+  padding:.5em;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 header section:first-of-type nav a{
   text-decoration: none;
-  color: black;
+  color: var(--color-black);
   display:flex;
   align-items:center;
-
 }
 
 header section:last-of-type h2{
-margin-top: 10px;
-margin-left: 20px;
-margin-right: 20px;
+margin: 4px 0 0 .0;
 padding-top: 20px;
 padding-bottom: 32px;
   
-font-size: 11px;
+font-size: 14px;
 font-weight: lighter;
-
 text-align: center;
 }
 
 header section:last-of-type h2 a{
-color: black;
+color: var(--color-black);
 }
 
 /*MAIN**************************************/
 main{
+  width: 90%;
   padding: none;
   margin: none;
 }
 
 main img{
-  /*display: block;*/
-  margin-top: -10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 98%;
+  
+  width: 100%;
+}
+
+main section:first-of-type{
+margin-left: 5%;
+width: 100%;
 }
 
 main section:first-of-type h2{
 margin: 0;
 margin-top: 10px;
-margin-bottom: 30px;
-margin-left: 5%;
+margin-bottom: 20px;
 padding: 0;
 
 font-size: 40px;
@@ -142,7 +190,7 @@ main section:first-of-type p{
   padding: none;
   margin: none;
   margin-right: 20%;
-  margin-left: 5%;
+
 
   text-align: left;
   font-size: 13px;
@@ -155,33 +203,32 @@ main section:first-of-type button{
   padding-left: 24px;
   padding-right: 24px;
   margin-top: 16px;
-  margin-left: 10px;
+  
 
   border-radius: 20px;
 
   text-align: center;
 
-  background: #111;
+  background: var(--color-black);
   color: #fff;
   cursor: pointer;
 }
 
-main section button:hover{
-background-color: red;
-}
+
 
 
 /*MAIN 2 of type ************************************/
 main section:nth-of-type(2){
   padding: none;
-  margin: none;
+  margin: 0 0 0 5%;
+  
 }
 
 main section:nth-of-type(2) h2{
   padding: none;
   margin: none;
   margin-top: 4em;
-  margin-left: 5%;
+  
 
   font-size: 24px;
   font-weight: lighter;
@@ -189,7 +236,7 @@ main section:nth-of-type(2) h2{
 
 main section:nth-of-type(2) img{
   padding: none;
-  margin-left: 5%;
+  
   margin: none;
   margin-right: 4em;
 
@@ -220,6 +267,10 @@ color: darkgray;
 
 /*MAIN section 3******************************************/
 
+main section:nth-of-type(3){
+  margin-left: 5%;
+}
+
 main section:nth-of-type(3) h2{
   padding: none;
   margin: none;
@@ -232,10 +283,9 @@ main section:nth-of-type(3) h2{
 
 main section:nth-of-type(3) img{
   display: block;
-  padding: none;
-  margin: none;
+  padding: 0 0 2em 0 ;
   
-  width: 95%;
+  width: 100%;
   height: 440px;
 }
 
@@ -246,7 +296,7 @@ main section:nth-of-type(3) p{
   margin-top: -8em;
 
   font-size: 14px;
-  color: white;
+  color: var(--header-background2);
 }
 
 main section:nth-of-type(3) button{
@@ -258,11 +308,11 @@ main section:nth-of-type(3) button{
   margin-left: 10%;
 
   border-radius: 20px;
-  border-color: white;
+  border-color:var(--header-background2);
 
   text-align: center;
 
-  background:white;
+  background:var(--header-background2);
   color:black;
   cursor: pointer;
 }
@@ -270,16 +320,17 @@ main section:nth-of-type(3) button{
 /*MAIN section 4*********************************/
 main section:nth-of-type(4){
   padding: none;
-  margin: none;
+  margin: 0 0 0 5%;
 }
 
 main section:nth-of-type(4) img{
   display: block;
   padding: none;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: 0 0 1em 0;
   
-  width: 95%;
+ 
+  
+  width: 100%;
   height: 300px;
 }
 
@@ -315,16 +366,18 @@ main section:nth-of-type(4) button{
 footer{
   padding: 0 0 10em 0;
   margin: none;
-  width: 98%; 
-  color: white;
-  background-color: black ;
+  width: 100%; 
+  color:var(--header-background2);
+  background-color:var(--color-black) ;
 }
 
-footer h2{
-  padding:none;
-  margin:none;
-  text-align: center;
+
+
+footer p{
   
+  text-align: left;
+  font-size: 14px;
+  margin-left: 5%;
 }
 
 
