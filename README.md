@@ -26,10 +26,6 @@ Surface plane (kies uit responsive óf surface plane)
  
 </details>
 
-
-
-
-
 ## Je website
 
 <details>
@@ -64,48 +60,21 @@ hier de naam van de pagina
 </details>
 
 
-
-
-
 ## Voortgang 1 (week 2)
 
-<details open>
-<summary> Ik kon niet aanwezig zijn bij de eerste voortgang helaas. ik ben gewoon verder gegaan aan mijn site en ben al goed op weg</summary>
-
-
+<details>
+<summary> 
+Ik kon niet aanwezig zijn bij de eerste voortgang helaas. ik ben gewoon verder gegaan aan mijn site en ben al goed op weg. Ik vind het erg leuk, maar wel moeilijk dus ik probeer veel uit en kijk wat werkt en wat niet.
+</summary>
 </details>
-
-
-
 
 
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
-
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
+<summary>
+In de tweede week van de voortganggesprekken was ik helaas ziek en kon ik er niet bij zijn. Ik baalde er, want had het voortgang gesprek daarvoor ook niet gehaald door andere omstandigheden. Ik ben in principe verder gegaan aan mijn site , maar begon op gegeven moment het overzicht een beetje te verliezen en had veel tijd nodig om bepaalde css voor elkaar te krijgen etc.
+</summary>
 </details>
 
 
@@ -115,34 +84,22 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
+<summary>
+In de 4e week hebben we verschillende toegankelijkheidstesten gedaan. Daaruit kwamen een paar dingen naar voren waar je normaal niet aan zou denken. Een van de voorbeelden die ik had en ook geprobeerd heb te verbeteren was het contrast van sommige tekst op mijn site. Ik heb uiteindelijk een dark mode gemaakt die het contrast wat beter maakt voor mijn gevoel. Verder kwam ik erachter dat mensen met parkinson wat last zouden kunnen hebben met de knoppen die op mijn site staan. Die heb ik vervolgens wat uitvergroot. 
+</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+1. Concentratieprobleem met ballon: kleinere teksten lastig te zien door contrast, klikken op kleinere buttons is lastig. 
+2. blur bril en met vlekken: dikke letters zijn goed te lezen. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Contrast met grote tekst.
+Dit ging op zich al prima, maar heb ik vervolgens ook nog een dark modus voor gemaakt die het contrast veranderd. Ik vind het hierdoor persoonlijk ook fijner om te lezen. Ik ben zelf ook meer van van dark modus.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+#### Knoppen moeilijk te klikken voor mensen met parkinson.
+Ik heb eigenlijk simpel de buttons gewoon wat vergroot zodat het makkelijker is om erop te klikken. 
 </details>
 
 
@@ -152,30 +109,29 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
+<summary>
+	Deze week had ik een gesprek met Sanne en de andere uit mijn groepje. Daarin is veel besproken wat mij ook verder heeft geholpen. ik heb hierdoor een mooiere foto casousel kunnen maken die in het midden snapt. Dat vond ik er erg mooi uitzien. Verder hebben we wat tips nog gekregen over stylesheets en de structuur van ons Html bestand. Dit heb ik verder geprobeerd aan te passen.
+</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Zoals ik hierboven al had beschreven had ik nog wat moeite met een carousel maken die op de x as zou navigeren. Dit is verder uitgelegd en uiteindelijk is het gelukt dus dat is top.
 
 ### Agenda voor meeting
-samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+
+| Nina           | Marijn de B.       | Thijs        | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| xxxxxxxxxxxxx  | xxxxxx             | Carousel punt| xxxxxxxxxxxxx    |
+| xxxxxxxxxxxxxx | xxxxxxxxxxxxxxxxxxx| xxxxxxxxxxxxx| xxxxxxxxxxxxxxxx |
 | ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
+- De structuur van het Html bestand nog bekijken.
+- Het gebruik van columns en rows zijn nog een keer uitgelegd.
+- Carouselpunt uitgelegd en de order van p's die bij de img horen binnen een carousel.
 </details>
 
 

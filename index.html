@@ -7,25 +7,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>Hello world</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap" rel="stylesheet">
+	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
 <body>
 	<header>
+		<!-- Header met de navigatie en retour banner  -->
 			<section>
-				
 				<a href="index.html"><img src="images/nike_logo.JPG" alt="x"></a>
-				
 				<nav>
+					<!-- Hamburger menu die is uitgelegd in de les en op teams staat.-->
 					<button aria-hidden="true">
 						<span></span>
 						<span></span>
 						<span></span>
 					</button>
+					<!-- Lijst met linkjes die zouden kunnen verwijzen naar volgende pagina's-->
 					<ul>
 						<a href=""><li>Cadeaus</li></a>
 						<a href=""><li>Nieuwe releases</li></a>
@@ -35,26 +34,27 @@
 						<a href=""><li>Collecties</li></a>
 					</ul>
 				</nav>
-
-				
 			</section>
 
 			<section>
-				<h2>Wij hebben de retourtermijn verlengd tot 60 dagen. <a href="x">Meer info</a></h2>
+				<!-- Hier staat de h1 die in de banner staat met een meer info link-->
+				<h1>Wij hebben de retourtermijn verlengd tot 60 dagen. <a href="x">Meer info</a></h2>
 			</section>
 	</header>
 	
 	<main>
+		<!-- De Main  -->
 		<section>
-			<img src="images/parris_goebel.JPG" alt="">
 
+		<!-- Eerste section waar een img tekst en een button in voor komt. -->
+			<img src="images/parris_goebel.JPG" alt="">
 				<h2>
 					Own je stijl
 				</h2>
 				<p>
 					Bij dans is je stijl net zo belangrijk als je moves. laat je inspireren door danslooks en door de wereldwijkd bekende danser Parris Goebel. 
 				</p>
-
+				<!-- Verschillende buttons waar onderscheid gemaakt wordt tussen kinderen en volwassen-->
 				<button>
 					Shop
 				</button>
@@ -64,22 +64,53 @@
 		</section>
 
 		<section>
+			<!-- 2e section waar ook de carousel in zit met alle schoenen-->
 			<h2>
 				Gear up
 			</h2>
+			<ul>
+				<li>
+					<img src="images/nikeshoe1.JPG" alt="schoen1">
+					<p>
+						Nike pegasus Trail 3 GORE-TEX
+					</p>
 
-				<img src="images/slideshow_picture1.JPG" alt="">
-
-				<p>
-				<span>Nike sportswear icon clash</span> 
-				</p>
-
-				<p>
-					Damestop met opstaande kraag en lange mouwen	
-				</p>
+					<p>
+						Hardloop schoenen voor heren
+					</p>
+				</li>
+				<li>
+					<img src="images/nikeshoe2.JPG" alt="schoen2">
+					<p>
+						Nike React Miler 2
+					</p>
+					<p>
+						Basketbal schoenen voor heren
+					</p>
+				</li>
+				<li>
+					<img src="images/nikeshoe3.JPG" alt="schoen3">
+					<p>
+						Nike React Miler 1
+					</p>
+					<p>
+						Basketbal schoenen voor heren
+					</p>
+				</li>
+				<li>
+					<img src="images/nikeshoe4.JPG" alt="schoen4">
+					<p>
+						Nike Air Max One blue
+					</p>
+					<p>
+						Allerdaagse schoenen voor jong en oud
+					</p>
+				</li>
+			</ul>
 		</section>
-
+	
 		<section>
+			<!-- 3e section met een img waar ook tekst in staat en een button-->
 			<h2>
 				Warme sets
 			</h2>
@@ -88,14 +119,13 @@
 			<p>
 				Comfortabele looks voor koude dagen
 			</p>
-
 			<button>
 				Shop
 			</button>
 		</section>
 
 		<section>
-
+			<!-- 4e section met een img, p en een knop voor kids  -->
 			<img src="images/setskids2.JPG" alt="">
 			<p>
 				Warm genoeg om de hele dag in te spelen
@@ -105,54 +135,36 @@
 				Shop kids
 			</button>
 		</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	</main>
-
-	
-
 	<footer>
+		<!-- Footer waar een p in staat. Deze moeten nog een link worden en verder uitgewerkt worden.  -->	
+		<section>
+			<p>
+				Cadeaubonnen	
+			</p>
+			<p>
+				Zoek een store
+			</p>
+			<p>
+				Meld je aan voor e-mails
+			</p>
+			<p>
+				Word member
+			</p>
+			
+			<p>
+				Studentenkorting
+			</p>
+			<p>
+				Feedback
+			</p>
+		</section>
 
-
-		<p>
-			Cadeaubonnen	
-		</p>
-		<p>
-			Zoek een store
-		</p>
-		<p>
-			Meld je aan voor e-mails
-		</p>
-		<p>
-			Word member
-		</p>
-		
-		<p>
-			Studentenkorting
-		</p>
-		<p>
-			Feedback
-		</p>
-
-
+		<section>
+		<!-- Darkmode input checkbox gemaakt die gebruikt wordt om de darkmodus aan te zetten binnen de site  -->
+			<input type="checkbox" id="darkmode" name="darkmode" value="darkmode" class="visually-hidden">
+			<label for="darkmode">Dark mode</label>
+		</section>
 
 	</footer>
 
