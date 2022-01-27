@@ -1,4 +1,4 @@
-/* CSS Document */
+/* CSS Document ********************************************************************************************************************************/
 *, *::after, *::before {
   box-sizing:border-box; 
   margin: none;
@@ -15,6 +15,8 @@ body{
   font-size: 16px;
   font-weight: normal;
   }
+
+/*ROOT VOOR ALLE TERUGKOMENDE CSS BINNEN HET BESTAND********************************************************************************************/
 
 :root{
   --background-color:white;
@@ -36,7 +38,8 @@ body{
   --font-40px: 40px;
   }
 
-/*DARKMODE*****************************************/ 
+/*DARKMODE**************************************************************************************************************************************/ 
+
 :root.darkmode {
   --background-color:white;
   --p-color: black;
@@ -79,8 +82,8 @@ body{
   } 
  }
 
+/*Zorgt ervoor dat de input weggaat. bron: https://www.allyproject.com/posts/how-to-hide-content/ Sharon heeft mij hier ook een beetje bij geholpen*/
 
-/*Zorgt ervoor dat de input weggaat. bron: https://www.allyproject.com/posts/how-to-hide-content/ */
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -92,8 +95,6 @@ body{
 }
 
 /*HEADER******************************************/
-
-
 
 header{
   padding: none;
@@ -151,12 +152,13 @@ header section:first-of-type nav button span{
   height: 1.5px;
   background-color:var(--blijftzwart-);
   transition: .3s;
-
 }
+
+
+/*TRANSFORMEREN VAN DE NAVIGATIE KNOP***********************************************************************************************************/
 
 header section:first-of-type nav button span:nth-of-type(1){
   transform: translateY(-8px);
-  
 }
 
 header section:first-of-type nav button span:nth-of-type(3){
@@ -191,7 +193,6 @@ header section:first-of-type ul{
 
 header section:first-of-type nav.toonMenu ul{
   transform:translatex(15%);
-  
 }
 
 header section:first-of-type li{
@@ -201,6 +202,14 @@ header section:first-of-type li{
   padding:.5em;
   font-size: var(--font-24px);
   font-weight: 500;
+}
+
+/*RESPONSIVE LIST ITEMS VOOR TELEFOON VIEWPORT**************************************************************************************************/
+
+@media (max-width:350px) {
+  header section:first-of-type li{
+    font-size: 14px;
+  }
 }
 
 header section:first-of-type nav a{
@@ -224,7 +233,7 @@ header section:last-of-type h1 a{
 color: var(--h2-color);
 }
 
-/*MAIN**************************************/
+/*MAIN******************************************************************************************************************************************/
 .main1{
   width: 90%;
   padding: none;
@@ -240,6 +249,8 @@ margin-left: 5.5%;
 width: 100%;
 }
 
+/*OWN JE STIJL H2 TITEL**************************************************************************************************************************/
+
 .main1 section:first-of-type h2{
 color: var(--h2-color);  
 margin: 0;
@@ -250,6 +261,8 @@ font-size: var(--font-40px);
 font-weight:800;
 text-align: center; 
 }
+
+/*HET SCHALEN VAN DE H2 OP DE HOOFDPAGINA VOOR RESPONSIVENESS. LEESBAARHEID WORDT BEVORDERD******************************************************/
 
 @media (min-width:420px) {
   .main1 section:first-of-type h2{
@@ -271,6 +284,8 @@ text-align: center;
     font-size: 80px;
   }
 }
+
+/*TEKST SCHALEN ONDER ''OWN JE STIJL'' VOOR BEVORDERING VAN LEESBAARHEID************************************************************************/ 
 
 .main1 section:first-of-type p{
   color: var(--p-color);
@@ -300,12 +315,14 @@ text-align: center;
   cursor: pointer;
 }
 
-/*MAIN 2 of type ************************************/
+/*MAIN SECTION 2 *******************************************************************************************************************************/
+
 .main1 section:nth-of-type(2){
   padding: none;
   margin: 0 0 0 10%;
-
 }
+
+/*CAROUSEL VAN FOTO'S***************************************************************************************************************************/
 
 .main1 section:nth-of-type(2) ul{
   list-style: none;
@@ -313,19 +330,15 @@ text-align: center;
   margin: 0;
   gap:2em;
   display: flex;
-
   overflow: auto;
- 
   scroll-snap-type: x mandatory;
 }
 
 .main1 section:nth-of-type(2) li{
   padding: 1em;
-
   flex-shrink: 0;
   width: 100%;
   max-width: 30em;
-
   flex-direction: column;
   scroll-snap-align:center;
 }
@@ -337,9 +350,7 @@ text-align: center;
 .main1 section:nth-of-type(2) img{
   width: 100%;
   display: block;
-
 }
-
 
 .main1 section:nth-of-type(2) h2{
   color: var(--h2-color);
@@ -363,8 +374,7 @@ text-align: center;
   text-align: center;
 }
 
-
-/*MAIN section 3******************************************/
+/*MAIN SECTION 3********************************************************************************************************************************/
 
 .main1 section:nth-of-type(3){
   margin-left: 10%;
@@ -374,7 +384,6 @@ text-align: center;
   margin:0;
 	padding:0;
 	list-style:none;
-	
 	display:grid;
 	gap: 0.5em;
 }
@@ -387,6 +396,8 @@ text-align: center;
   width: 100%;
   display: block;
 }
+
+/*GRID MAKEN VOOR SECTION VOOR RESPONSIVENESS DAT DE LEESBAARHEID EN STRUCTUUR BEVORDERD BIJ EEN GROTERE VIEWPORT*******************************/
 
 @media (min-width:50em) {
   .main1 section:nth-of-type(3) ul{
@@ -406,8 +417,20 @@ text-align: center;
   padding: none;
   margin: none;
   margin-left: 5%;
-  margin-top: -6em;
-  font-size: var(--font-14px);
+  margin-top: -5em;
+  font-size: var(--fnt-14px);
+}
+
+@media (min-width:720px) {
+  .main1 section:nth-of-type(3) p{
+    font-size:18px; 
+  }
+}
+
+@media (max-width:350px) {
+  .main1 section:nth-of-type(3) ul{
+    font-size: 12px;
+  }
 }
 
 .main1 section:nth-of-type(3) button{
@@ -425,7 +448,14 @@ text-align: center;
   cursor: pointer;
 }
 
-/*MAIN section 4*********************************/
+@media (max-width:350px) {
+  .main1 section:nth-of-type(3) button{
+    font-size:12px ;
+  }
+}
+
+/*MAIN SECTION 4********************************************************************************************************************************/
+
 .main1 section:nth-of-type(4){
   padding: none;
   margin: 0 0 0 5%;
@@ -464,7 +494,7 @@ text-align: center;
   cursor: pointer;
 }
 
-/*****FOOTER 1*************/
+/*FOOTER****************************************************************************************************************************************/
 
 footer{
   padding: 0 0 3em 0;
@@ -528,8 +558,7 @@ justify-content: center;
 margin-top:4em; 
 }
 
-/*CSS PAGINA 2*********************************************************************************/
-
+/*MAIN2 DETAILPAGINA****************************************************************************************************************************/
 
 .main2{
   width: 90%;
@@ -541,7 +570,6 @@ margin-top:4em;
   margin-left: 5.5%;
   width: 100%;
   }
-
 
 .main2 section:first-of-type h2{
   color: var(--h2-color);  
@@ -579,19 +607,15 @@ margin-top:4em;
   margin: 0;
   gap:2em;
   display: flex;
-
   overflow: auto;
- 
   scroll-snap-type: x mandatory;
 }
 
 .main2 section:first-of-type li{
   padding: 1em;
-
   flex-shrink: 0;
   width: 100%;
   max-width: 30em;
-
   flex-direction: column;
   scroll-snap-align:center;
 }
@@ -601,8 +625,7 @@ margin-top:4em;
   display: block;
 }
 
-
-/***************detail pagina section 2***********************************************/
+/*DETAILPAGINA SECTION 2************************************************************************************************************************/
 
 .main2 section:nth-of-type(2){
   margin-left: 5.5%;

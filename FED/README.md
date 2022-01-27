@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Thijs van Ettinger (vervangen door jouw naam)
+Thijs van Ettinger 
 
 #### Je startniveau:
-Rood (kies uit zwart, rood óf blauw)
+Rood 
 
 #### Je focus:
-Surface plane (kies uit responsive óf surface plane)
+Surface plane/ responsive (kwam erachter dat dit mij beter af ging) (kies uit responsive óf surface plane)
  
 </details>
 
@@ -51,14 +51,13 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/Breakdownschets1.JPG" width="375px" alt="breakdown van de hele pagina">
+<img src="images/Breakdownschets1.JPG" width="300px">
 
 ### dynamisch deel: 
-<img src="images/breakdownschets2.JPG" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/breakdownschets2.JPG" width="300px">
 
 
 </details>
-
 
 ## Voortgang 1 (week 2)
 
@@ -83,7 +82,7 @@ In de tweede week van de voortganggesprekken was ik helaas ziek en kon ik er nie
 
 ## Toegankelijkheidstest (week 4)
 
-<details>
+<details open>
 <summary>
 In de 4e week hebben we verschillende toegankelijkheidstesten gedaan. Daaruit kwamen een paar dingen naar voren waar je normaal niet aan zou denken. Een van de voorbeelden die ik had en ook geprobeerd heb te verbeteren was het contrast van sommige tekst op mijn site. Ik heb uiteindelijk een dark mode gemaakt die het contrast wat beter maakt voor mijn gevoel. Verder kwam ik erachter dat mensen met parkinson wat last zouden kunnen hebben met de knoppen die op mijn site staan. Die heb ik vervolgens wat uitvergroot. 
 </summary>
@@ -99,7 +98,7 @@ Dit ging op zich al prima, maar heb ik vervolgens ook nog een dark modus voor ge
 
 
 #### Knoppen moeilijk te klikken voor mensen met parkinson.
-Ik heb eigenlijk simpel de buttons gewoon wat vergroot zodat het makkelijker is om erop te klikken. 
+Ik heb eigenlijk simpel de buttons gewoon wat vergroot zodat het makkelijker is om erop te klikken.
 </details>
 
 
@@ -121,8 +120,8 @@ Zoals ik hierboven al had beschreven had ik nog wat moeite met een carousel make
 
 | Nina           | Marijn de B.       | Thijs        | student 4        |
 | ---            | ---                | ---          | ---              |
-| xxxxxxxxxxxxx  | xxxxxx             | Carousel punt| xxxxxxxxxxxxx    |
-| xxxxxxxxxxxxxx | xxxxxxxxxxxxxxxxxxx| xxxxxxxxxxxxx| xxxxxxxxxxxxxxxx |
+| xxxxxxxxxxxxxxx| xxxxxxxxxxxxxxxxxxx| Carousel punt| xxxxxxxxxxxxxxxxx|
+| xxxxxxxxxxxxxxx| xxxxxxxxxxxxxxxxxxx| xxxxxxxxxxxxx| xxxxxxxxxxxxxxxxx|
 | ...            | ...                | ...          | ...              |
 
 
@@ -140,15 +139,28 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Eindgesprek (week 5)
 
-<details>
-<summary>uitwerken voor eindgesprek</summary>
+<details open>
+<summary>Ik heb het vooral gehad over een paar dingen die nog niet zo goed gingen. Ik was ook nog niet klaar met mijn site en gebruikte het gesprek dus vooral om meer te weten te komen. Verder heb ik lopen sparren met de docent over wat wellicht leuk zou zijn binnen mijn site. Uiteindelijk heb ik dus gebruik gemaakt van een dark modus binnen mijn site en heb ik de site meer responsive gemaakt.
+Ik merkte achteraf dat responsiveness mij een stuk beter lag en dat ik wel snapte hoe het werkte. Ik vind coderen erg moeilijk en zie mezelf ook zeker niet als de beste, maar ik ben best trots op mijn eindresultaat. </summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+hier dit ging goed & dit was lastig.
+<summary>
+	Ik heb verschillende dagen gehad dat ik van alles aan het proberen was, maar er veel niet ''werkte'' en ik heb dagen gehad waarbij alles opeens in een keer goed ging. Dat is coderen bij mij in 1 oogopslag. Ik vind het super leuk, maar wel moeilijk. 
+</summary>
 
 ### Screenshot(s)
 
+<img src="images/darkmode_code.JPG" width="100%" alt="">
+
+<img src="images/h2_responsive_code.JPG" width="100%" alt="">
+
+
 hier screenshot(s) van je eindresultaat
+
+<img src="images/"screenshot_hoofdpagina.PNG width="100%" alt="">
+
+<img src="images/"screenshot_detailpagina.PNG width="100%" alt="">
 
 </details>
 
@@ -163,8 +175,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.allyproject.com/posts/how-to-hide-content
+2. Navigatie span uitleg samen met Sharon gedaan.
+
 
 </details>
