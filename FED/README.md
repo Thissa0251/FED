@@ -151,9 +151,9 @@ hier dit ging goed & dit was lastig.
 
 ### Screenshot(s)
 
-<img src="images/"screenshot_hoofdpagina.JPG" width="300px" alt="">
+<img src="images/"hoofd.JPG" width="100%" alt="">
 
-<img src="images/"screenshot_detailpagina.JPG" width="300px" alt="">
+<img src="images/"detail.JPG" width="100%" alt="">
 
 
 <img src="images/darkmode_code.JPG" width="25%" alt="">
