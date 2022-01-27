@@ -151,13 +151,15 @@ hier dit ging goed & dit was lastig.
 
 ### Screenshot(s)
 
+<img src="images/"screenshot_hoofdpagina.JPG" width="300px" alt="">
+
+<img src="images/"screenshot_detailpagina.JPG" width="300px" alt="">
+
+
 <img src="images/darkmode_code.JPG" width="25%" alt="">
 
 <img src="images/h2_responsive_code.JPG" width="25%" alt="">
 
-<img src="images/"screenshot_hoofdpagina.JPG" width="25%" alt="">
-
-<img src="images/"screenshot_detailpagina.JPG" width="25%" alt="">
 
 hier screenshot(s) van je eindresultaat
 </details>
