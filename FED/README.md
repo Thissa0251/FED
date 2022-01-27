@@ -151,13 +151,14 @@ hier dit ging goed & dit was lastig.
 
 ### Screenshot(s)
 
-<img src="images/"hoofd.JPG" width="100%" alt="">
+<img src="images/Pagina1.JPG" width="25%" alt="">
 
-<img src="images/"detail.JPG" width="100%" alt="">
+<img src="images/hoofd.JPG" width="25%" alt="">
+<img src="images/detail.JPG" width="25%" alt="">
+
 
 
 <img src="images/darkmode_code.JPG" width="25%" alt="">
-
 <img src="images/h2_responsive_code.JPG" width="25%" alt="">
 
 
