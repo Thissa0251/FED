@@ -151,18 +151,15 @@ hier dit ging goed & dit was lastig.
 
 ### Screenshot(s)
 
-
-
-<img src="images/hoofd.jpg" width="100%" alt="">
-<img src="images/detail.jpg" width="100%" alt="">
-
-
-
 <img src="images/darkmode_code.JPG" width="25%" alt="">
 <img src="images/h2_responsive_code.JPG" width="25%" alt="">
 
 
 hier screenshot(s) van je eindresultaat
+
+<img src="images/hoofd.jpg" width="100%" alt="">
+<img src="images/detail.jpg" width="100%" alt="">
+
 </details>
 
 
