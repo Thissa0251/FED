@@ -51,7 +51,7 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/Breakdownschets1.JPG" width="300px">
+<img src="images/Breakdownschets1.jpg" width="300px">
 
 ### dynamisch deel: 
 <img src="images/breakdownschets2.JPG" width="300px">
@@ -151,17 +151,15 @@ hier dit ging goed & dit was lastig.
 
 ### Screenshot(s)
 
-<img src="images/darkmode_code.JPG" width="100%" alt="">
+<img src="images/darkmode_code.JPG" width="25%" alt="">
 
-<img src="images/h2_responsive_code.JPG" width="100%" alt="">
+<img src="images/h2_responsive_code.JPG" width="25%" alt="">
 
+<img src="images/"screenshot_hoofdpagina.png width="100%" alt="">
+
+<img src="images/"screenshot_detailpagina.png width="100%" alt="">
 
 hier screenshot(s) van je eindresultaat
-
-<img src="images/"screenshot_hoofdpagina.PNG width="100%" alt="">
-
-<img src="images/"screenshot_detailpagina.PNG width="100%" alt="">
-
 </details>
 
 
