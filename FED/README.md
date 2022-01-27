@@ -153,8 +153,8 @@ hier dit ging goed & dit was lastig.
 
 
 
-<img src="images/hoofd.jpg" width="25%" alt="">
-<img src="images/detail.jpg" width="25%" alt="">
+<img src="images/hoofd.jpg" width="100%" alt="">
+<img src="images/detail.jpg" width="100%" alt="">
 
 
 
