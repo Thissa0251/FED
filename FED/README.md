@@ -155,9 +155,9 @@ hier dit ging goed & dit was lastig.
 
 <img src="images/h2_responsive_code.JPG" width="25%" alt="">
 
-<img src="images/"screenshot_hoofdpagina.png width="25%" alt="">
+<img src="images/"screenshot_hoofdpagina.JPG" width="25%" alt="">
 
-<img src="images/"screenshot_detailpagina.png width="25%" alt="">
+<img src="images/"screenshot_detailpagina.JPG" width="25%" alt="">
 
 hier screenshot(s) van je eindresultaat
 </details>
